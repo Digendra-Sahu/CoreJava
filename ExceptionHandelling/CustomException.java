@@ -1,12 +1,5 @@
 import java.io.*;
-class InvalidAgeException1 extends Exception
-{
-	InvalidAgeException1()
-	{
-		System.out.println("CustomException: InvalidAgeRangeException");
-	}
-}
-public class CustomException {
+public class CustomException1 {
 	public static void main(String args[])throws InvalidAgeException1
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
